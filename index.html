@@ -13,13 +13,15 @@
             margin:0px;
             padding:0px;
             font-family: 'Poppins', sans-serif;
+            /* overflow-x: hidden; */
         }
         body{
             color:white;
             background-color: rgb(2, 2, 71);
+            width: 100%;
         }
         header{
-            width:100vw;
+            width:100%;
             background-color: rgb(50, 50, 167);
         }
         nav{
@@ -151,10 +153,22 @@
                 display:block;
               }
             }
-
+            @media screen and (max-width: 1000px) {
+              .doubles{
+                display:flex;
+                flex-direction: column;
+              }
+            }
+main{
+    width: 100%;
+}
+            footer{
+                width: 100%;
+            }
         div.footer{
             text-align:center;
             background-color: black;
+            width:100%;
         }
 
         .img a img{
@@ -164,7 +178,7 @@
         }
 
         .profiles{
-            margin:10px 50px;
+            margin:10px 0px;
             display:flex;
             flex-direction: column;
             justify-content: space-around;
@@ -176,11 +190,13 @@
         .doubles{
             display:flex;
             flex-direction: row;
+            /* flex-direction: column; */
+
             margin:40px;
         }
         .single{
             display: flex;
-            width:50%;
+            width:50vw;
         }
 
         .raw{
@@ -196,6 +212,18 @@
             width:20px;
             color:white;
         }
+        @media screen and (max-width: 600px) {
+              .doubles{
+                display:flex;
+                flex-direction: column;
+            }
+            .single{
+                margin:20px 0px;
+              }
+              #mert{
+                margin-top:-50px;
+              }
+            }
         </style>
 </head>
 <body>
@@ -217,7 +245,7 @@
                             </button>
                             <ul class="dropdown-menu">
                               <li><a class="dropdown-item" href="#">Home</a></li>
-                              <li><a class="dropdown-item" href="#">About</a></li>
+                              <li><a class="dropdown-item" href="/about.html">About</a></li>
                               <li><a class="dropdown-item" href="#">Services</a></li>
                               <li><a class="dropdown-item" href="#">Contact</a></li>
                             </ul>
@@ -249,10 +277,8 @@
               <div class="column">
                   <img src="./images/logo1.png" >
         
-                  
                 </div>
               <div class="column">
-                  
                   <img src="./images/logo2.png" >
                   
                 </div>
@@ -340,7 +366,7 @@
                 </div>
             </div>
 
-            <div class="doubles">
+            <div class="doubles" id="mert">
 
                 <div class="single">
                     <div class="img">
