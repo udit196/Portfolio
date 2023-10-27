@@ -12,93 +12,6 @@
         rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
         crossorigin="anonymous">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        body {
-            color: white;
-            background-color: #020247; /* Background color for the body */
-            width: 100%;
-        }
-
-        header {
-            width: 100%;
-            background-color: #3232a7; /* Header background color */
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            height: 80px;
-            background-color: #3232a7; /* Navigation background color */
-        }
-
-        .left {
-            font-size: 1.5rem;
-            width: 50vw;
-        }
-
-        .right {
-            width: 50vw;
-        }
-
-        ul {
-            display: flex;
-            justify-content: space-around;
-            width: 50vw;
-        }
-
-        nav ul li {
-            margin: 5px;
-            list-style: none;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        nav ul li a:hover {
-            font-size: 1.1rem;
-            color: #c2c2d3;
-        }
-
-        .dropdown {
-            display: none;
-        }
-
-    @media screen and (max-width: 500px) {
-              .hide{
-                display:none;
-              }
-              .dropdown{
-                display:block;
-
-                /* temporary */
-                margin:0px;
-                padding:0px;
-              }
-        }
-
-        /* Rest of your custom CSS */
-
-        main {
-            width: 100%;
-        }
-
-        footer {
-            width: 100%;
-        }
-
-        div.footer {
-            text-align: center;
-            background-color: black;
-            width: 100%;
-        }
 
         /* Customize your project section */
         .project {
@@ -133,6 +46,7 @@
             text-decoration: underline;
         }
     </style>
+     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -149,8 +63,7 @@
                     <li class="hide"><a href="./index.html">Contact</a></li>
                     <li class="bana">
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Menu
                             </button>
                             <ul class="dropdown-menu">
@@ -159,10 +72,11 @@
                                 <li><a class="dropdown-item" href="./projects.html">Projects</a></li>
                                 <li><a class="dropdown-item" href="./index.html">Contact</a></li>
                             </ul>
-                        </div>
+                          </div>
                     </li>
                 </ul>
             </div>
+            
         </nav>
     </header>
 
