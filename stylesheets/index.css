@@ -38,7 +38,23 @@
 
     }
 
-/*  Developer-profiles section */
+    .coding-profiles iframe{
+        background-color: white;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+    }
+
+    .box {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 20px;
+        border: 1px solid #ccc;
+    }
+
+/*  Social-profiles section */
     
     .img a img{
         width:70px;
