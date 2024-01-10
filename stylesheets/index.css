@@ -111,7 +111,7 @@
            margin-left:-100px;
         }
 
-    /* for responsiveness in developer-profiles section */
+    /* for responsiveness in social-profiles section */
         .doubles{
             display:flex;
             flex-direction: column;
@@ -121,6 +121,17 @@
         }
         #mert{
             margin-top:-50px;
+        }
+    }
+
+    /* for responsiveness in coding profiles section */
+
+    @media screen and (max-width: 770px) {
+        .first{
+            display:none;
+        }
+        .box{
+            width:345px;
         }
     }
 
