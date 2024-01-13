@@ -68,7 +68,7 @@
         flex-direction: column;
         justify-content: space-around;
     }
-    .kl{
+    .headingTop{
         justify-content: center;
         text-align: center;
         margin-bottom: 10px;
@@ -81,10 +81,6 @@
     .single{
         display: flex;
         width:50vw;
-    }
-
-    .raw{
-        margin:10px 0px;
     }
 
     .text a{
@@ -119,7 +115,7 @@
         .single{
             margin:20px 0px;
         }
-        #mert{
+        #dual{
             margin-top:-50px;
         }
     }
