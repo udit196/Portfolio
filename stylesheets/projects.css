@@ -1,6 +1,6 @@
  /* Customize your project section */
  .project {
-    background-color: #fff; /* Project background color */
+    background-color: #fff; /*Project background color */
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -14,7 +14,7 @@
 
 .project-description {
     font-size: 16px;
-    color: #555; /* Project description color */
+    color: #555; /* Project description color */    
 }
 
 .project-links {
